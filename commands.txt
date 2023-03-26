@@ -1,0 +1,20 @@
+Here is new zip.
+
+create a folder like c:\app
+cd c:\app
+unzip the new.zip here in this folder
+
+To compile run the following command from command prompt
+javac src\edu\vm\*.java src\edu\vm\controller\*.java src\edu\vm\model\*.java src\edu\vm\view\*.java -d out
+
+
+To run:
+java -cp out edu.vm.RideShareApp
+
+
+
+it is working with jdk1.8
+
+Frontend - JAVA
+Backend - Java swing
+Database - JPA with serialised file
